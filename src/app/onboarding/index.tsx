@@ -8,7 +8,7 @@ const WelcomeScreen = () => {
       <Text style={{ marginBottom: 10, fontSize: 20 }}>Onboarding Screen 1</Text>
       <Link asChild push href="/onboarding/final">
         <Pressable style={styles.button}>
-          <Text style={{ color: "white" }}>Go to Final Screen</Text>
+          <Text style={{ color: "white" }}>Go to Onboarding Screen 2</Text>
         </Pressable>
       </Link>
     </View>
