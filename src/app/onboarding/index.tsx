@@ -5,7 +5,7 @@ import { Pressable, StyleSheet, Text, View } from "react-native";
 const WelcomeScreen = () => {
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ marginBottom: 10, fontSize: 20 }}>WelcomeScreen</Text>
+      <Text style={{ marginBottom: 10, fontSize: 20 }}>Onboarding Screen 1</Text>
       <Link asChild push href="/onboarding/final">
         <Pressable style={styles.button}>
           <Text style={{ color: "white" }}>Go to Final Screen</Text>
