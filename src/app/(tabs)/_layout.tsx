@@ -13,11 +13,11 @@ export default function TabsLayout() {
         tabBarStyle: {
           backgroundColor: "black",
           //bottom: insets.bottom,
-          height: 50 + insets.bottom,
-          paddingBottom: insets.bottom,
+          height: 50,
+
           paddingTop: 5,
           position: "absolute",
-          bottom: 20,
+          bottom: 20 + insets.bottom,
           marginHorizontal: 70,
           borderRadius: 25,
         },
