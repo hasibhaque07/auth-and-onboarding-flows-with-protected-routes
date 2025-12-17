@@ -6,7 +6,7 @@ const FinalScreen = () => {
   const { completedOnboarding } = useAuthStore();
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text style={{ marginBottom: 10, fontSize: 20 }}>FinalScreen</Text>
+      <Text style={{ marginBottom: 10, fontSize: 20 }}>Onboarding Screen 2</Text>
 
       <Pressable style={styles.button} onPress={completedOnboarding}>
         <Text style={{ color: "white" }}>Finish Onboarding</Text>
